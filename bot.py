@@ -1,14 +1,10 @@
 import tweepy
 import time
+from api_keys import consumer_key, consumer_secret, access_key, access_secret
 from quotes import quotes  # had to remove some in the pythonanywhere version cuz python2
 
-CONSUMER_KEY = "zimr3hIT1L5Q2UpTqe0N9n2AD"
-CONSUMER_SECRET = "KUCz5c9q9IF1xqZpoNXBrYRBoQwym11vpQgJNYFZWdu0CSoWsj"
-ACCESS_KEY = "1163483862279905282-B7l2smCk2wB31ZDHFoPqn7HhaUAt1a"
-ACCESS_SECRET = "bGXyH02keytfyWfwqqWMS8Mn5QH7mrvtnrlqRcF014UkR"
-
-auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth)
 
 for quote in quotes:
