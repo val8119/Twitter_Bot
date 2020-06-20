@@ -3,4 +3,4 @@
  
  Tweet example:
  
- ![Tweet example](https://raw.githubusercontent.com/val8119/Twitter_Bot/master/example_images/tweet_example.png)
+ ![Tweet example](example_images/tweet_example.png)
