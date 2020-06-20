@@ -1,3 +1,4 @@
+# all the quotes the bot can pick from. have to manually add "quotes = [" and "]"
 quotes = ['''Rosa: And when this is over, I'm going to find you, and I'm going to break those little fingers.
 Judge: Ms. Diaz, please stop threatening the stenographer!''',
           '''Amy: Maybe we should talk about deets for the case. Plan our next move. Grab some chow.
