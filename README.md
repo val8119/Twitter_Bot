@@ -1,2 +1,2 @@
 # Twitter_Bot
- Twitter bot that posts random Brooklyn Nine-Nine quotes
+ Uses a webscraper to find quotes and saves them to a list, then picks random quotes from that list to tweet out.
